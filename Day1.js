@@ -8,21 +8,36 @@
       let numeroDez = 10;
       let stringDez = '10';
 
-  // Condições das variáveis um.
+  // condições das variáveis um.
 
    if (numeroUm == stringUm && numeroUm !== stringUm ) {
 
    console.log('As variáveis numeroUm e stringUm tem o mesmo valor, mas tipos diferentes.')
-}
-   else if (numeroUm === stringUm) {
+
+}  else if (numeroUm === stringUm) {
 
    console.log('As variáveis numeroUm e stringUm tem o mesmo valor e tipo.')
-}
-   else {
+
+}  else {
       
    console.log('As variáveis numeroUm e stringUm não tem o mesmo valor.')
+   
 } 
-    
+   // condições das variáveis trinta. 
+
+   if (numeroTrinta === stringTrinta) {
+
+      console.log('As variáveis numeroTrinta e stringTrinta tem o mesmo valor e tipo')
+
+    } else if (numeroTrinta == stringTrinta && numeroTrinta !== stringTrinta) {
+              
+      console.log('As variáveis numeroTrinta e stringTrinta tem o mesmo valor, mas tipos diferentes')
+
+    } else {
+
+      console.log('As variáveis numeroTrinta e stringTrinta não tem o mesmo valor.')
+      
+    }
    
 
       
