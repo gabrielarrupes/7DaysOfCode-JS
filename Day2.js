@@ -13,5 +13,19 @@ const alerta = `Olá ${nomeFinal}, você está aprendendo ${linguagemFinal} aos 
 
 alert(alerta);
 
+const resposta = prompt(`${nomeFinal}, você está gostando de estudar ${linguagemFinal}? Digite SIM ou NÃO.`);
 
+const respostaFinal = resposta.toLowerCase();
 
+    if (respostaFinal === 'sim') {
+
+        alert(`Muito bom! Continue estudando e você terá muito sucesso.`);
+
+    } else if (respostaFinal === 'não' || respostaFinal === 'nao') {
+
+        alert (`Ahh que pena... Que tal aprender outra linguagem, quem sabe aí você encontre sua verdadeira vocação :)`);
+     
+    } else {
+
+        alert (`resposta inválida!`);
+    }
