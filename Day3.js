@@ -7,3 +7,16 @@ const escolhaBack = ["back-end", "back end", "backend"];
 const a = escolhaFront.includes(areaNome);
 const b = escolhaBack.includes(areaNome);
 //
+
+    if (a === true) {
+
+        linguagem = prompt("Você quer aprender React ou Vue?");
+
+    } else if (b === true) {
+
+        linguagem = prompt("Você quer aprender C# ou Java?");
+
+    } else { 
+
+        alert ('Você não escolheu uma linguagem de programação válida!');
+    }
