@@ -20,3 +20,8 @@ const b = escolhaBack.includes(areaNome);
 
         alert ('Você não escolheu uma linguagem de programação válida!');
     }
+
+// transformar a primeira letra em maíuscula.   
+const areaFinal = areaNome[0].toUpperCase() + areaNome.substring(1);
+const linguagemFinal = linguagem[0].toUpperCase() + linguagem.substring(1);
+//
