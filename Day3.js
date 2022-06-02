@@ -25,3 +25,19 @@ const b = escolhaBack.includes(areaNome);
 const areaFinal = areaNome[0].toUpperCase() + areaNome.substring(1);
 const linguagemFinal = linguagem[0].toUpperCase() + linguagem.substring(1);
 //
+
+const escolhaEsp = prompt("Digite 1 para seguir se especializando na área escolhida ou 2 para seguir se desenvolvendo para se tornar Fullstack");
+
+    if (escolhaEsp === 1) {
+
+        alert (`Continue se especializando em ${linguagemFinal} para dominar a área de ${areaFinal}!`); 
+
+    } else if (escolhaEsp === 2) {
+        
+        alert(`Chegou a hora de começar a aprender outras linguagens além de ${linguagemFinal} se você quer se tornar Fullstack!`); 
+
+    } else { 
+
+        alert ("Resposta inválida!")
+    
+    }
