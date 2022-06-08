@@ -1,5 +1,6 @@
 const area = prompt ("Você deseja seguir para área de Front-End ou seguir para a área de Back-End?"); 
 let linguagem = "";
+let tecnologia = "";
 
 // para passar todas as grafias possíveis digitadas no prompt da variável área.
 const areaNome = area.toLowerCase();
@@ -44,3 +45,25 @@ const espFinal = parseInt(escolhaEsp);
         alert ("Resposta inválida!");
         
     }
+
+    const escolhaFinal = prompt ("Gostaria de aprender alguma outra tecnologia? Digite SIM ou NÃO");
+
+    const finalMsg = escolhaFinal.toLowerCase();
+
+    let tecFinal = tecnologia.toUpperCase() + tecnologia.substring(1, tecnologia.length).toLowerCase();
+
+    while (finalMsg === "sim") {
+    
+        tecnologia = prompt ("Qual tecnologia?");
+    
+        alert (`${tecFinal} é realmente uma tecnologia muito boa para se aprender.`);
+
+        escolhaFinal = prompt ("Há mais alguma tecnologia que gostaria de aprender? Digite SIM ou NÃO");
+    
+}
+    if (finalMsg === "não" || finalMsg === "nao") { 
+
+        alert ("Obrigada pela sua resposta! Esperamos que no futuro você mude de ideia, afinal conhecimento nunca é demais.");
+        
+
+}
