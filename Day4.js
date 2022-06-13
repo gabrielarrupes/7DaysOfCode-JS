@@ -1,5 +1,5 @@
 
-const meuNum = 9;
+const numAlt = Math.floor(Math.random() * 10 + 1);
 let numeroChute = "";
 let acertou = false;
 
@@ -17,7 +17,7 @@ for (let i = 0; i < 3; i++) {
     }
     //
           
-    if (numeroChute == meuNum) {
+    if (numeroChute == numAlt) {
 
         alert ("Parabéns, você acertou!");
         acertou = true;        
@@ -32,6 +32,6 @@ for (let i = 0; i < 3; i++) {
 
 if(!acertou) {
 
-    alert ("Você não acertou nas três tentativas. Tente novamente!");
+    alert (`Você não acertou nas três tentativas. O número correto era ${numAlt}!`);
 
 }
