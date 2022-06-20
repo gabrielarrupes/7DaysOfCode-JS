@@ -42,7 +42,7 @@ let lista = iniciaLista.toLowerCase();
         lista = iniciaLista.toLowerCase();
 };
 
-    if(iniciaLista === "remover") {
+    if (iniciaLista === "remover") {
 	
         let	remover = prompt(`Sua lista: - Laticínio/Carnes: ${arr1}\n - Frutas/Legumes: ${arr2}\n - Pães/Grãos: ${arr3}\n - Higiene/Limpeza: ${arr4} \n. Deseja remover qual item?`);
         const removerFinal = remover.toLowerCase();
@@ -77,4 +77,4 @@ let lista = iniciaLista.toLowerCase();
         lista = iniciaLista.toLowerCase();
     }
     
-    alert (`Sua lista está pronta: - Laticínio/Carnes: ${arr1}\n - Frutas/Legumes: ${arr2}\n - Pães/Grãos: ${arr3}\n - Higiene/Limpeza: ${arr4}\n`);
+    	alert (`Sua lista está pronta: - Laticínio/Carnes: ${arr1}\n - Frutas/Legumes: ${arr2}\n - Pães/Grãos: ${arr3}\n - Higiene/Limpeza: ${arr4}\n`);
